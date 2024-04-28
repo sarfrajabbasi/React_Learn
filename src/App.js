@@ -16,7 +16,9 @@ import './App.css';
 // import styles from "../src/appStyles.module.css";
 // import "./component/style/style.css"
 // import Form from './component/Form';
-import LifeCycleA from './component/lifeCycleA';
+// import LifeCycleA from './component/lifeCycleA';
+// import Fragment from './component/fragment/fragment';
+import Table from './component/fragment/Table';
 
 function App() {
   return (
@@ -50,7 +52,9 @@ function App() {
      {/* <MyList></MyList> */}
      {/* <StyleSheets primaryno ={true}></StyleSheets> */}
      {/* <Form></Form> */}
-     <LifeCycleA></LifeCycleA>
+     {/* <LifeCycleA></LifeCycleA> */}
+     {/* <Fragment></Fragment> */}
+     <Table></Table>
     </div>
   );
 }
