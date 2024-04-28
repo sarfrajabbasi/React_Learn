@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 // import UserGreeting from './component/ConditionalRendering';
 // import ParentComponent from './component/MethodsAsProps';
@@ -11,10 +12,18 @@ import './App.css';
 // import Counter from './component/setState';
 // import Message from './component/state';
 // import MyList from './component/indexAsKey';
-import StyleSheets from './component/styleSheets';
+// import StyleSheets from './component/styleSheets';
+// import styles from "../src/appStyles.module.css";
+// import "./component/style/style.css"
+// import Form from './component/Form';
+import LifeCycleA from './component/lifeCycleA';
+
 function App() {
   return (
     <div className="App">
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>success</h1> */}
+
      {/* <h1 >Hello world</h1> */}
      {/* <HelloWrold></HelloWrold> */}
      {/* <Greetings name= "sarfraj"></Greetings> */}
@@ -39,7 +48,9 @@ function App() {
      {/* <UserGreeting></UserGreeting> */}
      {/* <NameList></NameList> */}
      {/* <MyList></MyList> */}
-     <StyleSheets primary ={true}></StyleSheets>
+     {/* <StyleSheets primaryno ={true}></StyleSheets> */}
+     {/* <Form></Form> */}
+     <LifeCycleA></LifeCycleA>
     </div>
   );
 }
